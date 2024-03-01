@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.header {
+    display: flex; /* Usa el modelo de caja flexible para el header */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px 20px; /* Añade relleno al header */
+    background-color: #fff; /* Color de fondo del header */
+    color: black; /* Color de texto del header */
+}
+
+  
+.menu ul {
+    list-style-type: none; /* Elimina los estilos de viñetas de la lista */
+    margin: 0; /* Elimina el margen de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
+}
+  
+.menu ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 25px; /* Añade margen a la derecha de cada elemento */
+}
+  
+.menu ul li a {
+    color: black; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 13px; 
+    font-weight: bold;
+    text-align: center;
+
+}
+  
+.divider {
+    height: 1px; /* Establece la altura de la línea divisoria */
+    background-color: grey; /* Color de fondo de la línea divisoria */
+    margin: 0 auto; /* Añade margen automático a los lados para centrar horizontalmente */
+    width: 95%; /* Establece el ancho de la línea divisora */
+    margin-top: 0%;
+
+}
+  
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; /*se aplica al contenedor para asegurarse de que las películas se envuelvan en múltiples líneas si el espacio horizontal disponible no es suficiente para mostrar todas las películas en una sola fila. */
+    justify-content: center;
+}
+  
+.cuadro {
+    width: 50%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*se agrega un efecto sombra en los bordes del cuadro*/
+    overflow: hidden; /*esta propiedad sirve para asegurarse de que cualquier contenido que sobresalga del contenedor no se muestre fuera de los límites del contenedor y se recorte de manera limpia y ordenada*/
+    margin-bottom: 70px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+  
+.cuadro img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+  
+.descripcion {
+    padding: 5px;
+}
+  
+.descripcion h2 {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+  
+.descripcion p {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: flex;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contenedor2{
+    display: flex;
+}
+
+.descripcion2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.descripcion2 h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.descripcion2 p {
+    margin-bottom: 10%;
+}
+
+.descripcion2 img {
+    width: 700px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+}
+
+#p2 {
+    text-align:right;
+}
+  
+/* Media Queries */
+@media (max-width: 768px) {
+    .contenedor {
+      justify-content: space-around;
+    }
+    .cuadro {
+      width: 45%;
+    }
+}
+  
+@media (max-width: 480px) {
+    .cuadro {
+      width: 90%;
+    }
+    .descripcion {
+      display: none;
+    }
+} 
