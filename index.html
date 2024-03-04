@@ -7,28 +7,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
   <header>
     <div class="header">
         <h1>VIRTUALIZACIÓN</h1>
     </div>
-      <div class="menu">
-        <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+     
+        <ul class="nav-list">
+          <li><a href="#funcionamiento">Funcionamiento</a></li>
+          <li><a href="#Ejemplo">Ejemplos</a></li>
+          <li><a href="#comprension">Comprensión</a></li>
+          <li><a href="#implementación">Implementación</a></li>
         </ul>
-      </div>
-    </div>
     <div class="divider"></div>
    </header>
   <main>
-
-    <div class="contenedor">
-      <div class="text">
         <div class="descripcion2">
           <h2>¿Qué es la virtualización?</h2>
           <p>
@@ -40,8 +32,12 @@
             la gestión de todo eso.
           </p>
         </div>
-        <div class="descripcion2">
+
+        <div id="funcionamiento">
           <h2>¿Cómo funciona la virtualización?</h2>
+        </div>
+
+        <div class="descripcion2">
           <p>
             El software de virtualización crea una capa de abstracción sobre el hardware de la 
             computadora que permite que los elementos de hardware de una sola computadora 
@@ -52,91 +48,104 @@
           </p>
         </div>
         
+        <div id="Ejemplo">
         <h2>5 ejemplos donde se puede utilizar y/o aplicar la virtualización.</h2>
+        </div>
 
-        <div class="cuadro">
-          <img src="img/virt_aplicaciones.jpg" alt="ejemplo1">
-          <div class="descripcion">
-            <h2>Virtualización de aplicaciones</h2>
-            <p>
-              La virtualización de aplicaciones permite al usuario utilizar un software que no está 
-              instalado en su equipo. Así, y bajo demanda, el servidor de la proveedora del software 
-              suministra al usuario un paquete que guarda las configuraciones y el entorno necesarios 
-              para ejecutar el software, de forma que podrá utilizarlo sin necesidad de llevar a cabo 
-              una descarga completa.
-            </p>
+      <div class="contenedor">
+          <div class="cuadro">
+              <img src="img/virt_aplicaciones.jpg" alt="ejemplo1">
+              <div class="descripcion">
+                <h2>Virtualización de aplicaciones</h2>
+                <p>
+                  La virtualización de aplicaciones permite al usuario utilizar un software que no está 
+                  instalado en su equipo. Así, y bajo demanda, el servidor de la proveedora del software 
+                  suministra al usuario un paquete que guarda las configuraciones y el entorno necesarios 
+                  para ejecutar el software, de forma que podrá utilizarlo sin necesidad de llevar a cabo 
+                  una descarga completa.
+                </p>
+              </div>
+          </div>
+          <div class="cuadro">
+              <img src="img/virtualizacion-de-escritorio.png" alt="ejemplo2">
+              <div class="descripcion">
+                <h2>Virtualización de escritorios</h2>
+                <p>
+                  se crea un escritorio virtual que no está almacenado en el ordenador del usuario, sino 
+                  en los servidores de la proveedora del servicio. Así, cada vez que un usuario esté 
+                  accediendo a su escritorio virtual, los programas, aplicaciones, datos, etc., estarán 
+                  albergados en dichos servidores, lo que ofrecerá múltiples posibilidades al usuario, 
+                  por ejemplo permitiendo el uso del escritorio en diferentes dispositivos y desde múltiples 
+                  ubicaciones.
+                </p>
+              </div>
+          </div>
+          <div class="cuadro">
+              <img src="img/BENEFICIOS-DE-LA-VIRTUALIZACION-DE-SERVIDORES-3.png" alt="ejemplo3">
+              <div class="descripcion">
+                <h2>Virtualización de servidores</h2>
+                <p>
+                  La virtualización de servidores divide estos en una serie de servidores virtuales, lo que 
+                  permite beneficios como el ahorro de costes o la automatización de algunas tareas.
+    
+                  Así, muchas empresas utilizan servidores virtuales en lugar de servidores físicos, 
+                  generalmente por motivos económicos, pero también por otras razones como una mayor 
+                  estabilidad en el servicio.
+                </p>
+              </div>
+          </div>
+          <div class="cuadro">
+              <img src="img/Podemos-hacer-varias-clases-de-virtualización.jpg" alt="ejemplo4">
+              <div class="descripcion">
+                <h2>Virtualización de almacenamiento</h2>
+                <p>
+                  En este tipo de virtualización es práctica habitual la de centralizar la información 
+                  en un único hipervisor en el que podremos acceder a todos los datos, independientemente 
+                  de que estos se encuentren almacenados en diferentes lugares y soportes, facilitando 
+                  la gestión y mejorando la disponibilidad y la velocidad.
+                </p>
+              </div>
+          </div>
+          <div class="cuadro">
+              <img src="img/hombre-que-utiliza-telefonos-inteligentes-moviles-tecnologia-conexion-redes-globales-innovadora-comunicacion_662214-227446.avif" alt="ejemplo5">
+              <div class="descripcion">
+                <h2>Virtualización de redes</h2>
+                <p>
+                  Se trata de la forma de virtualización que utiliza los recursos físicos de una red con 
+                  el objeto de formar diferentes redes virtuales que funcionen de forma independiente y 
+                  separadas entre sí.
+                </p>
+              </div>
           </div>
         </div>
-        <div class="cuadro">
-          <img src="img/virtualizacion-de-escritorio.png" alt="ejemplo2">
-          <div class="descripcion">
-            <h2>Virtualización de escritorios</h2>
-            <p>
-              se crea un escritorio virtual que no está almacenado en el ordenador del usuario, sino 
-              en los servidores de la proveedora del servicio. Así, cada vez que un usuario esté 
-              accediendo a su escritorio virtual, los programas, aplicaciones, datos, etc., estarán 
-              albergados en dichos servidores, lo que ofrecerá múltiples posibilidades al usuario, 
-              por ejemplo permitiendo el uso del escritorio en diferentes dispositivos y desde múltiples 
-              ubicaciones.
-            </p>
-          </div>
-        </div>
-        <div class="cuadro">
-          <img src="img/BENEFICIOS-DE-LA-VIRTUALIZACION-DE-SERVIDORES-3.png" alt="ejemplo3">
-          <div class="descripcion">
-            <h2>Virtualización de servidores</h2>
-            <p>
-              La virtualización de servidores divide estos en una serie de servidores virtuales, lo que 
-              permite beneficios como el ahorro de costes o la automatización de algunas tareas.
 
-              Así, muchas empresas utilizan servidores virtuales en lugar de servidores físicos, 
-              generalmente por motivos económicos, pero también por otras razones como una mayor 
-              estabilidad en el servicio.
-            </p>
-          </div>
+      <div id="comprension">
+        <h2>Comprensión de virtualización</h2>
+      </div>
+      <div class="contenedor2">
+        <div class="cuadro2">
+            <img src="img/beneficios-de-la-virtualizacion.png.webp" alt="ejemplo1">
         </div>
-        <div class="cuadro">
-          <img src="img/Podemos-hacer-varias-clases-de-virtualización.jpg" alt="ejemplo4">
-          <div class="descripcion">
-            <h2>Virtualización de almacenamiento</h2>
-            <p>
-              En este tipo de virtualización es práctica habitual la de centralizar la información 
-              en un único hipervisor en el que podremos acceder a todos los datos, independientemente 
-              de que estos se encuentren almacenados en diferentes lugares y soportes, facilitando 
-              la gestión y mejorando la disponibilidad y la velocidad.
-            </p>
-          </div>
-        </div>
-        <div class="cuadro">
-          <img src="img/hombre-que-utiliza-telefonos-inteligentes-moviles-tecnologia-conexion-redes-globales-innovadora-comunicacion_662214-227446.avif" alt="ejemplo5">
-          <div class="descripcion">
-            <h2>Virtualización de redes</h2>
-            <p>
-              Se trata de la forma de virtualización que utiliza los recursos físicos de una red con 
-              el objeto de formar diferentes redes virtuales que funcionen de forma independiente y 
-              separadas entre sí.
-            </p>
-          </div>
-        </div>
+      </div> 
+
+      <div id="implementación">
+        <h2>¿Por qué es importante conocer el concepto y cómo se puede aplicar la virtualización como
+          estrategia para optimizar los recursos físicos en el ambiente laboral y/o personal?</h2>
       </div>
 
       <div class="descripcion2">
-        <h2>Comprensión de virtualización</h2>
-        <img src="img/beneficios-de-la-virtualizacion.png.webp" alt="ejemplo5">
-      </div> 
-      <div class="descripcion2">
-        <h2>¿Por qué es importante conocer el concepto y cómo se puede aplicar la virtualización como
-          estrategia para optimizar los recursos físicos en el ambiente laboral y/o personal?</h2>
         <p>
           Es importante conocer este concepto para hacer un uso mas eficiente de los recursos fisicos como servidores
           o computadores, al conocer y comprender como se aplica se puede ayudar a minimizar costos, reducir el consumo 
           de energia, el espacio y se puede recuperar los datos en caso de desastres y errores humanos, ya que permite 
-          replicar y migrar sistemas virtuales o información.
+          replicar y migrar sistemas virtuales o información.<br>
 
           Para aplicar la virtualización como estrategia para optimizar los recursos físicos en el ambiente laboral y/o personal
-          se debe 
+          se debe principalmente planificar la implementación, identificar las necesidades especificas del entorno,  los requisitos de software,
+          el rendimiento que se espera obtener, se debe eligir el software adecuado, y monitorear el entorno de virtualización  para detectar 
+          posibles problemas de seguridad o rendimiento.
+          
       </div>
-    </div>
   </main>
 
 </body>
