@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: large;
 }
 
 header {
@@ -22,6 +23,8 @@ header {
 .nav-list li a {
     text-decoration: none;
     color: black;
+    font-size: large; 
+    
 }
   
 .contenedor {
@@ -43,7 +46,7 @@ header {
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
-  
+
 .descripcion {
     padding: 10px;
 }
@@ -52,6 +55,7 @@ header {
     margin: 0;
     font-size: 18px;
     text-align: center;
+    font-size: large;
 }
   
 .descripcion p {
@@ -59,6 +63,7 @@ header {
     font-size: 14px;
     text-align: center;
     font-weight: normal;
+    font-size: large;
 }
 
 h2 {
@@ -66,6 +71,7 @@ h2 {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+    font-size: large;
 }
 
 .contenedor2{
@@ -80,10 +86,13 @@ h2 {
 .descripcion2 h2 {
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: large;
 }
 
 .descripcion2 p {
     margin-bottom: 4rem;
+    font-size: large;
+    font-size: large;
 }
 
 .descripcion2 img {
@@ -101,9 +110,36 @@ h2 {
     display: flex;
     flex-wrap: wrap; /*se aplica al contenedor para asegurarse de que las películas se envuelvan en múltiples líneas si el espacio horizontal disponible no es suficiente para mostrar todas las películas en una sola fila. */
     justify-content: center;
+    align-items: center;
 }
 
 .cuadro2 img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.contenedor1 {
+    display: flex;
+    flex-wrap: wrap; /*se aplica al contenedor para asegurarse de que las películas se envuelvan en múltiples líneas si el espacio horizontal disponible no es suficiente para mostrar todas las películas en una sola fila. */
+    justify-content: center
+
+}
+
+
+.cuadro1 ul li {
+    width: 250px;
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*se agrega un efecto sombra en los bordes del cuadro*/
+    overflow: hidden; /*esta propiedad sirve para asegurarse de que cualquier contenido que sobresalga del contenedor no se muestre fuera de los límites del contenedor y se recorte de manera limpia y ordenada*/
+    margin-bottom: 70px;
+    font-size: large;
+    text-align: center;
+}
+
+.descripcion1 h3{
+    text-align: center;
 }
